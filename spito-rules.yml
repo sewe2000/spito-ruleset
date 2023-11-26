@@ -3,3 +3,5 @@ git_prefix: github.com
 
 rules:
     emacs-wayland: ./rules/emacs-wayland.lua
+dependencies:
+  - https://github.com/Nasz-Elektryk/spito-ruleset.git
