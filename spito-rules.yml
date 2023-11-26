@@ -1,0 +1,5 @@
+repo_url: https://github.com/sewe2000/spito-ruleset
+git_prefix: github.com
+
+rules:
+    emacs-wayland: ./rules/emacs-wayland.lua
