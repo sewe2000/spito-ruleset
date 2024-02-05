@@ -2,6 +2,9 @@ repo_url: https://github.com/sewe2000/spito-ruleset
 git_prefix: github.com
 
 rules:
-    emacs-wayland: ./rules/emacs-wayland.lua
+    emacs-wayland: 
+        path: ./rules/emacs-wayland.lua
+        unsafe: false
+        description: "Emacs for Wayland"
 dependencies:
   - https://github.com/Nasz-Elektryk/spito-ruleset.git
