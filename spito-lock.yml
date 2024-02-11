@@ -1,0 +1,3 @@
+dependencies:
+    emacs-wayland:
+        - avorty/spito-ruleset@nerd-fonts

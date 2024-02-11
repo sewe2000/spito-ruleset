@@ -1,12 +1,19 @@
 repo_url: https://github.com/sewe2000/spito-ruleset
 git_prefix: github.com
-identifier: sewe2000/spito-ruleset
+identifier: ""
 branch: main
-
 rules:
-    emacs-wayland: 
+    emacs-wayland:
         path: ./rules/emacs-wayland.lua
-        unsafe: false
-        description: "Emacs for Wayland"
+        description: ""
+    new-rule:
+        path: ./rules/new-rule.lua
+        description: ""
+    test-tokena:
+        path: ./rules/test-tokena.lua
+        description: ""
+        unsafe: true
+description: ""
 dependencies:
-  - https://github.com/Nasz-Elektryk/spito-ruleset.git
+  emacs-wayland:
+    - avorty/spito-ruleset@nerd-fonts
